@@ -1,0 +1,1253 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assests/css/style.css">
+      <link rel="stylesheet" href="assests/css/reset.css">
+      <title>manage companies</title>
+   </head>
+   <body>
+      <section class="managecompanies">
+         <div class="dashboard d-flex">
+            <div class="sidebar">
+               <ul>
+                  <li class="mancust">
+                     <a href="managecustomers.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage">
+                              <img src="assests/images/imag2.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3>Manage Customers</h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="mancust active">
+                     <a href="managecompanies.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage">
+                              <img src="assests/images/imag2.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3>Manage Companies</h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="mancust">
+                     <a href="manageproperties.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage">
+                              <img src="assests/images/imag1.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3>Manage Properties</h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="mancust">
+                     <a href="managecategorysubcategory.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage d-flex">
+                              <img src="assests/images/imag3.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3> Manage Category/ SubCategory
+                              </h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="mancust">
+                     <a href="managepropertiesrequest.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage">
+                              <img src="assests/images/imag1.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3>Manage Properties Requests</h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="mancust">
+                     <a href="manageinvestconsultant.html">
+                        <div class="jhonimg d-flex align-items-center">
+                           <div class="sidebarimage">
+                              <img src="assests/images/imag4.png">
+                           </div>
+                           <div class="sidebartxt">
+                              <h3>Manage Investor Consultant</h3>
+                           </div>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="maincontaint">
+               <div class="headingtxt d-flex center">
+                  <div class="bar">
+                     <a href="#"> <i class="fa fa-bars" aria-hidden="true"></i></a>
+                  </div>
+                  <div>
+                     <h2>manage companies</h2>
+                  </div>
+                  <div class="add">
+                  </div>
+                  <div class="admin">
+                     <div class="dropdown show">
+                        <a class="btn wc dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        admin
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                           <a class="dropdown-item" href="#">change password</a>
+                           <hr>
+                           <a class="dropdown-item" href="#">log out</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="maincontaininner">
+                  <div class="sortby d-flex ">
+                     <div class="searchbar">
+                        <div class="form-group has-search">
+                           <span class="fa fa-search form-control-feedback"></span>
+                           <input type="text" class="form-control" placeholder="Search by Companies name/id">
+                        </div>
+                     </div>
+                     <div class="admin sort d-flex align-items-center">
+                        <h3 class="mr-2">sort by:</h3>
+                        <div class="dropdown show">
+                           <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           company
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <!-- companydetailsmodel -->
+                     <div class="companydetailsmodel">
+                        <div class="modal fade" id="companydetails" tabindex="-1" role="dialog" aria-labelledby="companydetails" aria-hidden="true">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="container">
+                                    <div class="companydetailtxt">
+                                       <div class="companydetailtxtinner text-center">
+                                          <h3>
+                                             company details
+                                          </h3>
+                                       </div>
+                                       <div class="companydet d-flex justify-content-between align-items-center">
+                                          <div class="companydetinner d-flex">
+                                             <div class="companydetimg text-center">
+                                                <img src="assests/images/modelimg.jpg" alt="">
+                                                <h3>mike jhon</h3>
+                                             </div>
+                                             <div class="companydettxt">
+                                                <ul>
+                                                   <li>mike@gamil.com</li>
+                                                   <li class="text-lowercase">www.abc.com</li>
+                                                   <li>!9198235364766</li>
+                                                   <li class="text-uppercase">nz,usa</li>
+                                                   <li>type: company</li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                          <div class="rightbtn">
+                                             <div class="action">
+                                                <ul class="d-flex flex-column">
+                                                   <li><a href="#">accept</a></li>
+                                                   <li><a href="#">decline</a></li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="imguploader">
+                                          <h1 class="">Upload an image!</h1>
+                                          <div class="col-ting">
+                                            <div class="control-group file-upload" id="file-upload1">
+                                              <div class="image-box text-center">
+                                                <p>Upload Image</p>
+                                                <img src="" alt="">
+                                              </div>
+                                              <div class="controls" style="display: none;">
+                                                <input type="file" name="contact_image_1"/>
+                                              </div>
+                                          </div>
+                                          <div class="control-group file-upload" id="file-upload1">
+                                            <div class="image-box text-center">
+                                              <p>Upload Image</p>
+                                              <img src="" alt="">
+                                            </div>
+                                            <div class="controls" style="display: none;">
+                                              <input type="file" name="contact_image_1"/>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <ul class="nav nav-tabs">
+                        <li class="active"><a href="#newrequests" data-toggle="tab" class="active" >new requests</a></li>
+                        <li><a href="#verifiedrequests" data-toggle="tab">verified requests</a></li>
+                     </ul>
+                     <div class="tab-content">
+                        <div class="tab-pane active" id="newrequests">
+                           <div class="miantable table-responsive text-nowrap">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col">s.no</th>
+                                       <th scope="col">customer name</th>
+                                       <th scope="col">email address</th>
+                                       <th scope="col">website URL</th>
+                                       <th scope="col">phone number</th>
+                                       <th scope="col">address</th>
+                                       <th scope="col">type</th>
+                                       <th scope="col">action</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <th scope="row">1</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">2</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">3</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">4</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">5</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">6</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">7</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">8</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3>
+                                                   mike jhon
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-98235364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#" data-toggle="modal" data-target="#companydetails">company</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">accept</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <div class="paginationbottom">
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Previous">
+                                          <span aria-hidden="true">&laquo;</span>
+                                          <span class="sr-only">Previous</span>
+                                          </a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Next">
+                                          <span aria-hidden="true">&raquo;</span>
+                                          <span class="sr-only">Next</span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- company details model verifiedrequests -->
+                        <div class="companydetailsmodel">
+                           <div class="modal fade" id="companydetailsvr" tabindex="-1" role="dialog" aria-labelledby="companydetailsvr" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                                    <div class="container">
+                                       <div class="companydetailtxt">
+                                          <div class="companydetailtxtinner text-center">
+                                             <h3>
+                                                company details
+                                             </h3>
+                                          </div>
+                                          <div class="companydet d-flex justify-content-between align-items-center">
+                                             <div class="companydetinner d-flex">
+                                                <div class="companydetimg text-center">
+                                                   <img src="assests/images/modelimg.jpg" alt="">
+                                                   <h3>mike jhon</h3>
+                                                </div>
+                                                <div class="companydettxt">
+                                                   <ul>
+                                                      <li>mike@gamil.com</li>
+                                                      <li class="text-lowercase">www.abc.com</li>
+                                                      <li>!9198235364766</li>
+                                                      <li class="text-uppercase">nz,usa</li>
+                                                      <li>type: company</li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                             <div class="rightbtn">
+                                                <div class="action">
+                                                   <ul class="d-flex flex-column">
+                                                      <li><a href="#">accept</a></li>
+                                                      <li><a href="#">deactivate</a></li>
+                                                      <li><a href="#">delete</a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="imguploader d-flex justify-content-center">
+                                             <div class="uploadesimgtxt imguploader">
+                                                <h1 class="pt-0">uploaded document</h1>
+                                             </div>
+                                             <div class="uploadesimg d-flex">
+                                                <div>
+                                                   <img src="assests/images/map1.png" alt="">
+                                                </div>
+                                                <div>
+                                                   <img src="assests/images/map1.png" alt="">
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="serviceofferd">
+                                             <div class="servicehead">
+                                                <h3>
+                                                   services offerd:
+                                                </h3>
+                                             </div>
+                                             <div class="servicecover d-flex flex-wrap pt-3">
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="serviceinner d-flex">
+                                                   <div class="serviceleft">
+                                                      <div class="serviceimg">
+                                                         <img src="assests/images/serviceimg.jpg" alt="">
+                                                      </div>
+                                                   </div>
+                                                   <div class="serviceright">
+                                                      <div class="servicetxt">
+                                                         <div class="servicename d-flex align-items-center">
+                                                            <h3>service name:</h3>
+                                                            <span class="ml-2"> plumber</span>
+                                                         </div>
+                                                         <ul>
+                                                            <li>
+                                                               <p> price:</p>
+                                                               <span class="ml-2"> $35 hour</span>
+                                                            </li>
+                                                            <li>
+                                                               <p>
+                                                                  category:
+                                                               </p>
+                                                               <span class="ml-2">
+                                                               plumbing
+                                                               </span>
+                                                            </li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane" id="verifiedrequests">
+                           <div class="miantable table-responsive text-nowrap">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col">s.no</th>
+                                       <th scope="col">customer name</th>
+                                       <th scope="col">email address</th>
+                                       <th scope="col">website URL</th>
+                                       <th scope="col">phone number</th>
+                                       <th scope="col">address</th>
+                                       <th scope="col">type</th>
+                                       <th scope="col">service
+                                          offered
+                                       </th>
+                                       <th scope="col">action</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <th scope="row">1</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#"  data-toggle="modal" data-target="#companydetailsvr" >10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">2</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">3</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">4</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">5</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">6</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">7</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <th scope="row">8</th>
+                                       <td>
+                                          <div class="mikejhon d-flex align-items-center">
+                                             <div class="mikeimg">
+                                                <img src="assests/images/logo.jpg" alt="">
+                                             </div>
+                                             <div class="mikename">
+                                                <h3 class="text-uppercase">
+                                                   xyz llc
+                                                </h3>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-lowercase"> mike@gmail.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class=""> www.abc.com</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3>+91-982356364766</h3>
+                                       </td>
+                                       <td>
+                                          <h3><span class="text-uppercase">nz,usa</span></h3>
+                                       </td>
+                                       <td>
+                                          <h3><span>company</span></h3>
+                                       </td>
+                                       <td><span>
+                                          <a href="#">10</a>
+                                          </span>
+                                       </td>
+                                       <td>
+                                          <div class="action">
+                                             <ul class="d-flex flex-column" >
+                                                <li><a href="#">activite</a></li>
+                                                <li><a href="#">block</a></li>
+                                                <li><a href="#">delete</a></li>
+                                             </ul>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <div class="paginationbottom">
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Previous">
+                                          <span aria-hidden="true">&laquo;</span>
+                                          <span class="sr-only">Previous</span>
+                                          </a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Next">
+                                          <span aria-hidden="true">&raquo;</span>
+                                          <span class="sr-only">Next</span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+   </body>
+   <script>
+      $(".image-box").click(function(event) {
+      var previewImg = $(this).children("img");
+      
+      $(this)
+      .siblings()
+      .children("input")
+      .trigger("click");
+      
+      $(this)
+      .siblings()
+      .children("input")
+      .change(function() {
+      	var reader = new FileReader();
+      
+      	reader.onload = function(e) {
+      		var urll = e.target.result;
+      		$(previewImg).attr("src", urll);
+      		previewImg.parent().css("background", "transparent");
+      		previewImg.show();
+      		previewImg.siblings("p").hide();
+      	};
+      	reader.readAsDataURL(this.files[0]);
+      });
+      });
+      
+   </script>
+   <script>    
+      $(document).ready(function(){
+      $(".bar").click(function(){
+        $(".sidebar").toggleClass("main");
+      });
+      });
+   </script>
+   <script>    
+      $(document).ready(function(){
+      $(".bar").click(function(){
+        $(".maincontaint").toggleClass("hundred");
+      });
+      });
+   </script>
+</html>

@@ -1,0 +1,1718 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.bar {
+	display: none;
+}
+
+img {
+	width: 100%;
+}
+
+.uploadesimg div img {
+	width: 200px;
+	margin: 0px 10px;
+}
+
+.dropdown-menu {
+	padding: 0px 0px;
+	border-radius: 0px;
+}
+
+ul.nav.nav-tabs {
+	padding-top: 5px;
+}
+
+.btn.focus,
+.btn:focus {
+	box-shadow: none!important;
+}
+
+.headingtxt .admin .btn:hover {
+	color: white;
+}
+
+a.dropdown-item {
+	padding: .05rem .5rem;
+	border: 0px solid!important;
+	text-align: center;
+}
+
+.dropdown-menu hr {
+	margin-top: 0rem!important;
+	margin-bottom: 0rem!important;
+	border: 0;
+	border-top: 2px solid rgba(0, 0, 0, 4);
+}
+
+.dashboard {
+	overflow: hidden;
+}
+
+.adminform h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.logoimg,
+.feild {
+	width: 50%;
+}
+
+.logoimg img {
+	width: 50%;
+}
+
+.back-bg {
+	background: #999999;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.table td,
+.table th {
+	vertical-align: middle;
+}
+
+.star a i:hover {
+	color: #bf3939;
+	transition: all 0.5s;
+}
+
+.parawidth p {
+	line-height: 1.2;
+	font-size: 15px;
+}
+
+.login a,
+.lostpassword a,
+.adminform h3,
+.sidebartxt h3,
+.headingtxt h2,
+.dropdown a,
+thead tr,
+.admin.sort h3,
+.action ul li a,
+.mikename h3,
+ul.nav.nav-tabs li a,
+.companydetimg h3,
+.companydettxt ul li,
+.servicename h3,
+.servicename span,
+.servicehead h3,
+.propertiesinfo span,
+.modernapartment .mikeimg h3,
+.propertiesinfo h3,
+.mcalctxt p,
+.amenitieshead h3,
+.propertyid,
+.property-left,
+.property-right,
+.changelabel label,
+.compan h3,
+td span a,
+tr td h3,
+.formaddmore .inputchange label {
+	text-transform: capitalize;
+}
+
+.wc {
+	color: white;
+}
+
+.inputchange {
+	width: 50%;
+}
+
+.changepassword .feild,
+.formaddmore .feild {
+	width: 100%;
+}
+
+.changelabel label {
+	font-size: 35px;
+	color: #999999;
+}
+
+.changepassword .login a {
+	color: black;
+	background: #999999;
+	padding: 8px 45px;
+	font-size: 20px;
+}
+
+.changepassword .maincontaininner {
+	padding: 100px 0px;
+	height: 100vh;
+}
+
+.login a {
+	color: white;
+	background: #666666;
+	padding: 8px 45px;
+	font-size: 20px;
+}
+
+.lostpassword a {
+	color: black;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.form-control {
+	line-height: 2;
+	border-radius: 0px;
+}
+
+.admin h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.form-group input::-webkit-input-placeholder {
+	/* Edge */
+	color: #2b231c;
+	text-transform: capitalize;
+}
+
+.form-group input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #2b231c;
+	text-transform: capitalize;
+}
+
+.form-group input::placeholder {
+	color: #2b231c;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+
+/* forgetpassword */
+
+.forgotpass h2 {
+	font-size: 26px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.forgotpassword .login {
+	margin: 35px 0px;
+}
+
+
+/* managecustomer */
+
+.dashboard {
+	width: 100%;
+}
+
+.sidebar {
+	width: 15%;
+}
+
+.sidebarimage img {
+	width: 35px;
+}
+
+.sidebartxt h3 {
+	font-size: 15px;
+	color: white;
+}
+
+.sidebar {
+	width: 11%;
+	background: #666666;
+	height: auto;
+}
+
+.jhonimg {
+	padding: 13px;
+	border-bottom: 1px solid black;
+}
+
+.sidebarimage {
+	margin-right: 5px;
+	display: flex;
+}
+
+.mancust.active {
+	background: #333333;
+}
+
+
+/* maincontaint */
+
+.manageproperties .maincontaint {
+	width: 100%;
+}
+
+.maincontaint {
+	width: 89%;
+}
+
+.headingtxt h2 {
+	font-size: 22px;
+	color: white;
+}
+
+.headingtxt {
+	background: #666666;
+	padding: 13px 0px;
+	position: relative;
+}
+
+.admin {
+	position: absolute;
+	right: 0px;
+	display: flex;
+	top: 7px;
+}
+
+.admin .dropdown-toggle::after {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 1.4em solid white;
+	border-right: 0.9em solid transparent;
+	border-bottom: 0;
+	border-radius: 3px 3px 3px 3px;
+	border-left: 0.9em solid transparent;
+}
+
+.admin a#dropdownMenuLink {
+	display: flex;
+}
+
+.maincontaininner {
+	padding: 30px;
+}
+
+.has-search .form-control {
+	padding-left: 3rem;
+	padding-top: 10px;
+}
+
+.searchbar .form-control {
+	line-height: 1.5;
+	border-radius: 0px;
+}
+
+a.dropdown-item:hover,
+.admin.sort a.dropdown-item:hover{
+	background: #666666!important;
+	color: white!important;
+	transition: all 0.5s!important;
+}
+
+a.dropdown-item {
+	font-size: 11px;
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 2.375rem;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	text-align: center;
+	pointer-events: none;
+	color: #aaa;
+}
+
+.searchbar .fa-search {
+	font-size: 27px;
+}
+
+.searchbar {
+	width: 26.6%;
+}
+
+table {
+	border-collapse: separate!important;
+	border-spacing: 0 6px!important;
+}
+
+.table td,
+.table th {
+	border-bottom: 1px solid #e5e5e5!important;
+	border-top: 1px solid #e5e5e5!important;
+}
+
+tr th:last-child,
+tr td:last-child {
+	border-right: 1px solid #e5e5e5;
+}
+
+tr th:first-child,
+tr td:first-child {
+	border-left: 1px solid #e5e5e5;
+}
+
+.action ul li {
+	background: #666666;
+	margin: 1px 0px;
+	padding: 0px 0px;
+	text-align: center
+}
+
+.action ul li a,
+.actioninline ul li a {
+	font-size: 10px;
+	color: white;
+	display: block;
+	border: 1px solid;
+	line-height: 2;
+}
+
+.action ul li a:hover,
+.actioninline ul li a:hover,
+.addnew a:hover,
+.managepropertiesrequest .action span a:hover {
+	background: white;
+	color: #666666;
+	transition: all 0.5s;
+}
+
+.heart:hover.heart a i {
+	color: #666666;
+	transition: all 0.5s;
+}
+
+.villatxtleft ul li a i:hover,
+.locationinner ul li a i:hover {
+	transform: scale(1.5);
+	transition: all 0.5s;
+}
+
+tr td h3 {
+	font-size: 20px;
+}
+
+thead tr {
+	background: #dddddd;
+	font-size: 20px;
+}
+
+.mikeimg {
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+	margin-right: 5px;
+}
+
+.mikeimg img {
+	border-radius: 50%;
+}
+
+td span a {
+	color: black;
+}
+
+tr th {
+	font-size: 22px;
+}
+
+tr td h3,
+.companydettxt ul li {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+tr th {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+/* pagination */
+
+.pagination {
+	justify-content: center;
+}
+
+.page-link {
+	color: #000000!important;
+	font-size: 18px!important;
+	border: 0px solid #dee2e6!important;
+}
+
+.nav-tabs {
+	border-bottom: 0px;
+}
+
+ul.nav.nav-tabs li a,
+.manageproperties ul.nav.nav-tabs li a {
+	background: white;
+	color: #333333;
+	padding: 4px 30px;
+	border: 1px solid #333333;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.admin.sort .btn {
+	padding: 8px;
+}
+
+manageproperties ul.nav.nav-tabs li a {
+	padding: 4px 60px!important;
+}
+
+ul.nav.nav-tabs a.active,
+.manageproperties ul.nav.nav-tabs a.active {
+	background: #333333;
+	color: white;
+	padding: 4px 30px;
+	border: 1px solid #333333;
+}
+
+manageproperties ul.nav.nav-tabs li a.active {
+	padding: 4px 60px!important;
+}
+
+.searchbar .form-group {
+	margin-bottom: 0px;
+}
+
+.sortby.d-flex {
+	margin-bottom: 1rem;
+}
+
+.admin.sort {
+	position: unset!important;
+	margin-left: 50px;
+}
+
+.searchbar {
+	width: 23.31%;
+}
+
+.managecategorysubcat .searchbar {
+	width: 28%;
+}
+
+.admin.sort h3 {
+	font-size: 18px;
+}
+
+.admin.sort a {
+	border: 1px solid #333333;
+	color: #333333;
+	border-radius: 0px;
+	align-items: center;
+}
+
+.admin.sort .dropdown-toggle::after {
+	border-top: 1.1em solid #333333;
+	border-right: 0.7em solid transparent;
+	border-left: 0.7em solid transparent;
+}
+
+.managecompanies .mikeimg img {
+	border-radius: 0%;
+	height: 45px;
+}
+
+
+/* manageproperties */
+
+.villatxtleft h3 {
+	text-transform: capitalize;
+	font-size: 17px;
+}
+
+.villatxtleft h4 {
+	font-size: 15px;
+	color: #9cc4d6;
+}
+
+.villatxtleft ul li a i {
+	font-size: 20px;
+	color: gray;
+}
+
+.villatxtleft ul li {
+	font-size: 15px;
+	color: gray;
+	text-transform: capitalize
+}
+
+.star a i {
+	font-size: 20px;
+	color: #9cc4d6;
+	margin-left: 6px;
+}
+
+.villatxtright h4 {
+	font-size: 16px;
+	color: #9cc4d6;
+}
+
+.manageproinnner {
+	margin-top: 10px;
+}
+
+.villaimg {
+	position: relative;
+}
+
+.imguploader h1 {
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	padding-top: 25px;
+}
+
+.heart {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+
+.heart i {
+	color: #9cc4d6;
+	font-size: 25px;
+}
+
+.manageproperties .paginationbottom {
+	padding-top: 20px;
+}
+
+.addnew a {
+	padding: 6px 50px;
+	background: #333333;
+	text-transform: capitalize;
+	color: white;
+	border: 1px solid;
+}
+
+button:focus {
+	outline: none!important;
+}
+
+
+/* managecategorysubcategory */
+
+.catimg img {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	display: flex;
+}
+
+.actioninline ul li {
+	display: inline;
+	padding: 5px 0px;
+	background: #666666;
+}
+
+.actioninline {
+	text-align: center;
+}
+
+.actioninline ul li a {
+	padding: 7px 15px;
+	font-size: 13px;
+	text-transform: capitalize;
+	display: inline;
+	border: 1px solid;
+}
+
+
+
+
+
+
+.col-ting {
+	display: flex;
+    justify-content: center;
+	
+	margin-bottom: 3em;
+}
+.file-upload .image-box {
+	
+	height: 15em;
+	width: 20em;
+	background: #787878;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 10px;
+}
+.file-upload .image-box img {
+	height: 100%;
+	display: none;
+}
+.file-upload .image-box p {
+	position: relative;
+	top: 45%;
+	color: #fff;
+}
+
+
+
+
+/* managepropertiesrequest */
+
+.managepropertiesrequest .villatxtleft h3 {
+	text-transform: capitalize;
+	font-size: 11px;
+}
+
+.managepropertiesrequest .villatxtleft h4 {
+	font-size: 11px;
+	color: #9cc4d6;
+}
+
+.managepropertiesrequest .villatxtleft ul li a i {
+	font-size: 11px;
+	color: gray;
+}
+
+.managepropertiesrequest .villatxtleft ul li {
+	font-size: 11px;
+	color: gray;
+	text-transform: capitalize
+}
+
+.managepropertiesrequest .star a i {
+	font-size: 11px;
+	color: #9cc4d6;
+	margin-left: 2px;
+}
+
+.managepropertiesrequest .villatxtright h4 {
+	font-size: 11px;
+	color: #9cc4d6;
+}
+
+.managepropertiesrequest .star.d-flex a {
+	display: flex;
+}
+
+.managepropertiesrequest .action span a {
+	background: #666666;
+	padding: 3px 35px;
+	line-height: 1.1;
+	color: white;
+	text-transform: capitalize;
+	font-size: 11px;
+	border: 1px solid #66666666;
+}
+
+.parawidth p {
+	white-space: pre-line;
+}
+
+.totaltextinner h3,
+.deletetxtinner h3,
+.companydetailtxtinner h3 {
+	font-size: 25px;
+	padding: 10px;
+	font-weight: 600;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+
+.yesbtn a {
+	padding: 8px 30px;
+	display: block;
+}
+
+.yesbtn a {
+	padding: 5px 55px;
+	display: block;
+	color: black;
+	text-transform: capitalize;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 0px 15px;
+}
+
+.yesno {
+	padding: 30px 0px;
+}
+
+
+/* company details model */
+
+.companydetimg {
+	width: 150px;
+}
+
+.companydettxt {
+	margin: 15px 0px 0px 30px;
+}
+
+.companydetimg h3 {
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.rightbtn .action ul li a {
+	font-size: 20px;
+	padding: 0px 30px;
+}
+
+.managepropetiesmodel .rightbtn .action ul li a {
+	font-size: 13px;
+	padding: 0px 30px;
+}
+
+.managepropetiesmodel .rightbtn .action ul li {
+	margin: 1px 0px;
+}
+
+.propertiesimg {
+	padding: 8px 0px;
+}
+
+.rightbtn .action ul li {
+	margin: 3px 0px;
+}
+
+.companydetailtxtinner.text-center h3 {
+	font-size: 40px;
+	font-weight: 500;
+	padding: 25px 0px;
+}
+
+.file {
+	visibility: hidden;
+	position: absolute;
+}
+
+.serviceleft {
+	width: 36%;
+}
+
+.serviceright {
+	width: 64%;
+}
+
+.serviceimg {
+	width: 120px;
+}
+
+.servicetxt {
+	margin: 7px 0px;
+}
+
+.servicetxt ul li {
+	display: flex;
+	align-items: center
+}
+
+.servicetxt ul li p,
+.servicetxt ul li span {
+	font-size: 14px;
+}
+
+.servicename h3,
+.servicename span {
+	font-size: 18px;
+}
+
+.serviceinner {
+	background-color: #dddddd;
+}
+
+.serviceimg {
+	width: 125px;
+	padding: 5px;
+	margin: auto;
+	display: flex;
+}
+
+.serviceinner {
+	width: 32.4%;
+	margin: 0px 10px 10px 0px;
+}
+
+.servicehead h3 {
+	border-bottom: 2px solid black;
+	font-size: 18px;
+	display: inline;
+}
+
+
+/* addmore */
+
+.box {
+	height: 175px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	grid-gap: 18px 36px;
+}
+
+.addmore .tenbutton button i {
+	color: red;
+	font-size: 30px;
+}
+
+
+/* .box div :last-child {
+    border: none!important;
+}
+.box div :last-child {
+    border: none!important;
+} */
+
+.box>* {
+	flex: 0 0 40px;
+	flex-basis: 17%;
+	width: 200px;
+	padding: 5px 2px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+
+.addcontentdiv {
+	padding: 25px;
+	border: 1px solid #cccccc;
+	overflow: hidden;
+}
+
+button.tenbutton.btncolor i {
+	color: #666666;
+	font-size: 35px;
+}
+
+button.tenbutton.btncolor span {
+	font-size: 22px;
+}
+
+.typewrapimg {
+	width: 200px;
+	margin: 30px auto;
+}
+
+.typewrap .addmore button i {
+	font-size: 33px!important;
+}
+
+
+/* .tenbutton {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.addmore button {
+	background: transparent;
+	border: 0px;
+}
+
+.propertyinfo h3 {
+	border-bottom: 2px solid black
+}
+
+.propertiesinfo ul li,
+.rating-left ul li {
+	display: flex;
+	align-items: flex-start;
+}
+
+.propertiesinfo img {
+	width: 19px;
+}
+
+.modernapartment .mikeimg h3 {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.modernapartment .mikeimg {
+	width: 60px;
+	height: 60px;
+}
+
+.propertiesinfo h3 {
+	font-size: 22px;
+}
+
+.rating-left img {
+	width: 30px;
+}
+
+.checked {
+	color: #ff9900;
+}
+
+.rating-right span {
+	font-size: 25px;
+}
+
+.rating-right .ratetxt {
+	font-size: 20px;
+}
+
+.mcalcimg {
+	width: 30%;
+	padding: 0px 6px;
+	display: flex;
+	justify-content: end;
+}
+
+.mcalcimg img {
+	width: 30px;
+	display: flex;
+}
+
+.mcalctxt {
+	width: 70%;
+}
+
+.mcalc {
+	width: 25%;
+	border: 1px solid red;
+}
+
+.mcalca {
+	width: 20%;
+}
+
+.managepropetiesmodel .mcalca .mcalcimg {
+	width: 38%;
+}
+
+.amenitiesinner .mcalctxt p {
+	font-size: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.propertyid {
+	font-size: 12px;
+	color: gray;
+}
+
+.mcalca .mcalcimg {
+	width: 50%;
+}
+
+.mcalcimg i {
+	font-size: 20px;
+}
+
+.property-left {
+	font-size: 13px;
+}
+
+.property-right {
+	font-size: 11px;
+	color: gray;
+}
+
+.mcalctxt p {
+	line-height: 16px;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.amenitieshead h3 {
+	font-size: 20px;
+	color: gray;
+	padding: 5px 0px;
+}
+
+.property-size,
+.rating {
+	padding: 5px 0px;
+}
+
+.location {
+	padding: 3px 0px;
+}
+
+.locationinner ul li a i {
+	font-size: 25px;
+}
+
+.amenitiespara p {
+	font-size: 15px;
+	color: gray;
+	padding: 10px 0px;
+}
+
+.managecatsubaddnew .compan h3 {
+	font-size: 35px;
+}
+
+.formaddmore .inputchange label {
+	width: 200px;
+	font-size: 25px;
+}
+
+.formaddmore .inputchange input {
+	width: 380px;
+}
+
+.formaddmore .inputchange {
+	width: 100%;
+	padding: 0px 180px;
+}
+
+.img-thumbnail {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	object-position: center;
+	margin: 10px;
+}
+
+nav {
+	display: none;
+}
+
+.headingtxt {
+	justify-content: center;
+}
+
+.maincontaint.hundred {
+	width: 100%;
+	transition: all 0.5s;
+}
+
+.sidebar.main {
+	width: 17%;
+	display: block;
+	transition: all 0.5s;
+}
+
+.sidebar {
+	width: 11%;
+	transition: all 0.5s;
+}
+
+@media(max-width: 480px) {
+	.img-thumbnail {
+		height: 50px;
+	}
+}
+
+@media (min-width: 576px) {
+	.totalpropertitesmodel .modal-dialog {
+		max-width: 700px;
+		margin: 3.5rem auto;
+	}
+	.managecatsubaddnew .modal-dialog {
+		max-width: 1200px;
+		margin: 8.75rem auto;
+	}
+	.companydetailsmodel .modal-dialog {
+		max-width: 90%;
+	}
+	.deletecustomermodel .modal-dialog {
+		max-width: 1000px;
+		margin: 1.75rem auto;
+	}
+	.managecategorysubcategorymodel .modal-dialog {
+		max-width: 1470px;
+		margin: 4rem auto;
+	}
+	.modal-content {
+		border-radius: 0px;
+	}
+}
+
+@media only screen and (max-width: 1599px) {
+	.sidebar {
+		width: 13%;
+	}
+	.maincontaint {
+		width: 87%;
+	}
+}
+
+@media only screen and (max-width: 1360px) {
+	.sidebar {
+		width: 15%;
+	}
+	.maincontaint {
+		width: 100%;
+	}
+	.serviceinner {
+		width: 32.7%;
+		margin: 0px 6px 10px 0px;
+	}
+	.serviceimg {
+		width: 113px;
+	}
+	.parawidth p {
+		min-width: 650px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.forgotpass h2 {
+		font-size: 22px;
+	}
+	.sidebar {
+		width: 17%;
+	}
+	.serviceleft {
+		width: 40%;
+	}
+	.serviceright {
+		width: 64%;
+	}
+	.servicename h3,
+	.servicename span {
+		font-size: 15px;
+	}
+	.serviceinner {
+		width: 32.6%;
+	}
+	.mcalca {
+		width: 28%;
+	}
+	.inputchange .form-group {
+		flex-direction: column;
+		align-items: center;
+	}
+	.managecatsubaddnew .compan h3 {
+		font-size: 23px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.investformlogo {
+		flex-direction: column;
+	}
+	.col-ting {
+		flex-direction: column;
+		align-items: center;
+	}
+	.imguploader {
+		
+		text-align: center;
+	}
+	.feild.d-flex.justify-content-between {
+		flex-direction: column;
+		align-items: center;
+	}
+	.mcalca {
+		width: 20%;
+	}
+	.serviceinner {
+		width: 32.4%;
+	}
+	.bar a {
+		color: white;
+	}
+	.headingtxt {
+		justify-content: center;
+		align-items: center;
+	}
+	.sidebarimage img {
+		width: 30px;
+	}
+	.sidebartxt h3 {
+		font-size: 12px;
+	}
+	.logoimg,
+	.feild {
+		width: 100%;
+		justify-content: center;
+	}
+	logoimg {
+		text-align: center;
+	}
+	.back-bg {
+		height: 150vh;
+	}
+	.servicename h3,
+	.servicename span {
+		font-size: 10px;
+	}
+	.serviceimg {
+		width: 103px;
+	}
+	.serviceleft {
+		width: 48%;
+	}
+	.servicetxt ul li p,
+	.servicetxt ul li span {
+		font-size: 11px;
+	}
+	/* .admin h3 {
+     
+        margin-top: 30px;
+    } */
+	.yesbtn a {
+		padding: 5px 40px;
+		font-size: 14px;
+	}
+	.deletetxtinner h3 {
+		font-size: 22px
+	}
+	.yesno {
+		padding: 15px 0px;
+	}
+	.companydetailtxtinner.text-center h3 {
+		font-size: 30px;
+	}
+	.sortby.d-flex {
+		flex-direction: column;
+	}
+	.admin.sort {
+		margin-left: 0px;
+	}
+	.searchbar,
+	.managecategorysubcat .searchbar {
+		width: 100%;
+	}
+	ul.nav.nav-tabs a.active,
+	.manageproperties ul.nav.nav-tabs a.active {
+		width: 190px;
+	}
+	ul.nav.nav-tabs li a,
+	.manageproperties ul.nav.nav-tabs li a {
+		width: 190px;
+	}
+	.changelabel label {
+		font-size: 20px;
+		color: #999999;
+	}
+	.maincontaint.hundred {
+		width: 100%;
+		transition: all 0.5s;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	/* .sidebar{
+            width: 0px;
+            display: none;
+		} */
+	.uploadesimg.d-flex {
+		flex-direction: column;
+	}
+	.manapro.d-flex.justify-content-between {
+		flex-direction: column;
+	}
+	.headingtxt {
+		justify-content: space-between;
+	}
+	.imguploader {
+		flex-direction: column;
+		align-items: center;
+	}
+	.uploadesimgtxt {
+		padding-bottom: 10px;
+	}
+	/* .sidebar.main {
+            width: 20%;
+          
+        } */
+	.manageproperties .maincontaint.hundred {
+		width: 100%;
+	}
+	.maincontaint.hundred {
+		width: 83%;
+	}
+	maincontaint {
+		width: 100%;
+	}
+	.bar {
+		display: block;
+		padding: 0px 10px;
+		font-size: 25px;
+		z-index: 9999;
+	}
+	.inputchange {
+		width: 270px;
+	}
+	.changepassword .login a {
+		color: black;
+		background: #999999;
+		padding: 5px 25px;
+		font-size: 12px;
+	}
+	.headingtxt h2 {
+		font-size: 15px;
+		color: white;
+	}
+	.formaddmore .inputchange label {
+		width: 200px;
+		font-size: 16px;
+	}
+	.formaddmore .inputchange {
+		padding: 0px 0px;
+	}
+	.mcalc {
+		width: 50%;
+		border: 1px solid red;
+	}
+	.mcalca {
+		width: 26%;
+	}
+	.serviceinner {
+		width: 48%;
+	}
+	.companydetimg h3 {
+		margin-top: 0px;
+	}
+	.companydettxt ul li {
+		font-size: 16px;
+	}
+	.rightbtn {
+		padding: 15px 0px;
+	}
+	.companydetimg h3 {
+		font-size: 17px;
+	}
+	.imguploader.d-flex {
+		justify-content: center;
+	}
+	.rightbtn .action ul li a {
+		font-size: 15px;
+		padding: 0px 20px;
+	}
+	/* .sidebar {
+			width: 7%;
+			transition: all 0.5s;
+		} */
+	.totaltextinner h3,
+	.deletetxtinner h3,
+	.companydetailtxtinner h3 {
+		font-size: 18px;
+	}
+	.companydetailtxtinner.text-center h3 {
+		font-size: 25px
+	}
+	.villatxtleft h3,
+	.villatxtleft ul li a i {
+		font-size: 13px;
+	}
+	.villatxtright h4,
+	.star a i {
+		font-size: 11px;
+	}
+	.villatxtleft ul li,
+	.villatxtleft h4 {
+		font-size: 9px;
+	}
+	.companydet {
+		flex-direction: column;
+	}
+	.manageproperties .rightbtn {
+		padding: 0px 0px;
+	}
+	.managepropetiesmodel .rightbtn .action ul li a {
+		font-size: 10px;
+		padding: 0px 13px;
+	}
+	.managecatcover.d-flex.justify-content-between.align-items-start {
+		flex-direction: column;
+		align-items: center!important;
+	}
+	.type h3,
+	button.tenbutton.btncolor span {
+		font-size: 17px;
+	}
+	.typewrap .addmore button i {
+		font-size: 25px!important;
+	}
+	.login a {
+		color: white;
+		background: #666666;
+		padding: 8px 25px;
+		font-size: 13px;
+	}
+	.jhonimg {
+		padding: 5px 5px;
+		border-bottom: 1px solid black;
+	}
+	ul.nav.nav-tabs li a,
+	.manageproperties ul.nav.nav-tabs li a {
+		font-size: 10px;
+		text-align: center
+	}
+	ul.nav.nav-tabs {
+		flex-direction: column;
+	}
+	.sidebar {
+		margin-left: -130px;
+		transition: all 0.5s;
+	}
+	.sidebar.main {
+		margin-left: 0px;
+		transition: all 0.5s;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.admin {
+		/* position: absolute;
+            left: 0px;
+            display: flex; */
+		top: 25px;
+	}
+	.sidebar {
+		margin-left: -108px;
+		transition: all 0.5s;
+	}
+	.headingtxt {
+		padding: 26px 0px;
+	}
+	.headingtxt div h2 {
+		max-width: 254px;
+		text-align: center;
+	}
+	.maincontaint.hundred {
+		width: 80%;
+	}
+	.sidebar.main {
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width: 574px) {
+	.deletetxtinner h3 {
+		font-size: 16px;
+	}
+	headingtxt div h2 {
+		max-width: 118px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.sidebar {
+		margin-left: -86px;
+		transition: all 0.5s;
+	}
+	.sidebartxt h3 {
+		font-size: 10px;
+	}
+	.sidebarimage img {
+		width: 20px;
+	}
+	.maincontaininner {
+		padding: 10px;
+	}
+	.sidebar.main {
+		width: 30%;
+	}
+	.forgotpass h2 {
+		font-size: 16px;
+	}
+	.adminform h3 {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.adminform.text-center.mb-4 {
+		margin: 16px 0px 0px 0px!important;
+	}
+	.propertiesinfo h3 {
+		font-size: 18px;
+	}
+	.serviceinner {
+		width: 100%;
+	}
+	.property-size,
+	.rating {
+		padding: 5px 0px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.formaddmore .inputchange input {
+		width: 270px;
+	}
+	.serviceimg {
+		margin: 0px;
+	}
+	.serviceimg {
+		width: 100%;
+	}
+	.serviceleft {
+		width: 25%;
+	}
+	.serviceright {
+		width: 75%;
+	}
+	.servicename h3,
+	.servicename span {
+		font-size: 17px;
+	}
+	.servicetxt ul li p,
+	.servicetxt ul li span {
+		font-size: 14px;
+	}
+	.yesno {
+		padding: 8px 0px;
+		flex-direction: column;
+		text-align: center;
+		margin-bottom: 3px;
+	}
+	.companydetinner {
+		flex-direction: column;
+	}
+	.companydetailtxtinner.text-center h3 {
+		font-size: 20px;
+	}
+	.companydettxt ul li {
+		font-size: 15px;
+	}
+	.rightbtn .action ul li a {
+		font-size: 12px;
+	}
+	.admin a {
+		font-size: 11px;
+	}
+	.admin.sort h3 {
+		font-size: 13px;
+	}
+	.sortby.d-flex {
+		margin-bottom: 0rem;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.propertiesinfo ul li,
+	.rating-left ul li {
+		justify-content: center;
+	}
+	.modernapartment {
+		flex-direction: column;
+		align-items: center!important;
+	}
+	.form-group input::placeholder {
+		color: #2b231c;
+		text-transform: capitalize;
+		font-size: 15px;
+	}
+	.location {
+		padding: 21px 0px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.mcalca {
+		width: 50%;
+	}
+	.searchbar .fa-search {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.propertiesinfo ul li,
+	.propertiesinfo ul li span {
+		font-size: 10px;
+	}
+	.admin {
+		top: 58px;
+	}
+	.managepropetiesmodel .maincontaininner {
+		padding: 10px;
+		overflow: scroll;
+		width: 80%;
+	}
+	.has-search .form-control {
+		padding-left: 3rem;
+		padding-top: 7px;
+	}
+	.searchbar .fa-search {
+		font-size: 15px;
+	}
+	.maincontaint.hundred {
+		width: 75%;
+	}
+	.sidebar {
+		margin-left: -70px;
+	}
+	.sidebar.main {
+		width: 25%;
+	}
+	.form-group input::placeholder {
+		color: #2b231c;
+		text-transform: capitalize;
+		font-size: 10px;
+	}
+	.forgotpass h2 {
+		font-size: 13px;
+	}
+	.propertiesinfo h3 {
+		font-size: 12px
+	}
+	.modernapartment .mikeimg {
+		width: 30px;
+		height: 30px;
+	}
+	.modernapartment .mikeimg h3 {
+		font-size: 6px;
+	}
+	.locationinner ul li,
+	.locationinner ul li a i {
+		font-size: 11px;
+	}
+	.propertyid {
+		font-size: 9px;
+	}
+	.rating-left img {
+		width: 15px;
+	}
+	.rating-left span {
+		font-size: 10px;
+	}
+	.location {
+		padding: 13px 0px;
+	}
+	.rating-right .ratetxt,
+	.rating-right span {
+		font-size: 13px;
+	}
+	.property-left {
+		font-size: 9px;
+	}
+	.property-right {
+		font-size: 7px;
+	}
+	.mcalctxt p {
+		line-height: 12px;
+		font-size: 10px;
+		font-weight: 500;
+	}
+	.mcalcimg i {
+		font-size: 15px;
+	}
+	.mcalcimg img {
+		width: 22px;
+		display: flex;
+	}
+	.amenitieshead h3 {
+		font-size: 13px;
+	}
+	.managepropetiesmodel .mcalca .mcalcimg {
+		width: 25%;
+	}
+	.amenitiespara p {
+		font-size: 10px;
+	}
+	.servicehead h3 {
+		font-size: 13px;
+	}
+	.file-upload .image-box {
+		height: 10em;
+		width: 14em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.sidebar {
+		margin-left: -60px;
+	}
+	.sidebar.main {
+		width: 30%;
+	}
+}
